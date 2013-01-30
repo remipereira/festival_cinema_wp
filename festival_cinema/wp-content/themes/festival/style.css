@@ -1,0 +1,93 @@
+/*
+Theme Name: Festival
+Theme URI: http://example.com/
+Description: Thème enfant du thème Twenty Twelve
+Author: Rémi PEREIRA
+Author URI: http://example.com/about/
+Template: twentytwelve
+Version: 0.1.0
+*/
+@import url("../twentytwelve/style.css");
+
+
+body{
+	background-image: url('img/1.jpg');
+}
+
+
+#page{
+	background-color: #FEC4FE;
+	color: black;
+	box-shadow: 0px 0px 15px black;
+	border-radius: 15px;
+}
+
+img.header-image{
+	box-shadow: 0px 5px 10px black;
+}
+
+
+.champs-persos-label{
+	font-style: normal;
+	font-weight: bold;
+}
+
+#site-navigation li{
+	margin: 0;
+	text-align: center;
+	width: 137px;
+	margin-left: -4px;
+}
+
+#site-navigation li a{
+	color: black;
+}
+
+.imgdiapo{
+
+
+}
+
+.fg-rouge {background-color: #ff0000;}
+.fg-orange {background-color: #FE9900;}
+.fg-jaune {background-color: #F6FE00;}
+.fg-vert {background-color: #11FE00;}
+.fg-turquoise {background-color: #00FEFE;}
+.fg-bleu {background-color: #004CFE;}
+.fg-mauve {background-color: #7F00FE;}
+
+
+
+.slideshow {
+  position: relative;
+  list-style: none;
+  overflow: hidden;
+  width: 100%;
+  padding: 0;
+  margin: 0;
+  }
+
+.rslides li {
+  -webkit-backface-visibility: hidden;
+  position: absolute;
+  display: none;
+  width: 100%;
+  left: 0;
+  top: 0;
+  text-decoration: none;
+  }
+
+.rslides li:first-child {
+  position: relative;
+  display: block;
+  float: left;
+  }
+
+.rslides img {
+  display: block;
+  height: auto;
+  float: left;
+  border: 0;
+  width: 950px;
+  height: 450px;
+  }
